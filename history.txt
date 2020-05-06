@@ -1,0 +1,50 @@
+  390  git remote -v
+  391  git push -u origin master
+  392  git add main.c 
+  393  git add average.h average.c Makefile 
+  394  git push
+  395  ls
+  396  git commit -r "added main.c average.c/.h and Makefile"
+  397  git push
+  398  git commit -m "added main.c average.c/.h and Makefile"
+  399  git push
+  400  nano main.c 
+  401  nano Makefile 
+  402  make
+  403  nano main.c 
+  404  make
+  405  nano main.c 
+  406  make
+  407  nano main.c 
+  408  make
+  409  nano main.c 
+  410  make
+  411  nano main.c 
+  412  make
+  413  nano main.c 
+  414  make
+  415  ./output.o 
+  416  nano main.c 
+  417  make
+  418  history | 20 >history.txt
+  419  history|20 >history.txt
+  420  history>history.txt
+  421  nano history.txt 
+  422  history>history.txt | 15
+  423  history |n=20 >history.txt
+  424  nano history.txt 
+  425  history |20 >history.txt
+  426  history |n20 >history.txt
+  427  history |n=-20 >history.txt
+  428  nano history.txt 
+  429  history |-l 20 >history.txt
+  430  history |wc 20 >history.txt
+  431  -n 20| history>history.txt
+  432  tail -n 20| history>history.txt
+  433  tail -n 20 history > history.txt
+  434  tail -n 20 |history > history.txt
+  435  history[20] > history.txt
+  436  history [20] > history.txt
+  437  history 20 > history.txt
+  438  nano history.txt 
+  439  history 50 > history.txt
