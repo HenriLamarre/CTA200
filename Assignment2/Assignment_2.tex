@@ -17,7 +17,7 @@
 
 \section{Question 1}
 \subsection{Methods}
-In this section, we initialize 100 randomly sampled points in the complex square of width 4 centered at $(0,0)$. We then iterate with the rule $z_{i+1}=z_i+c$. We then assign the color red to the points that end up outside the box at the end of the 20 iterations. We assign the color blue to the points that are still in the box after the 20 iterations. Then, we zoom on the square of width $0.2$ centered at $(0,0)$ and redo the same process.
+In this section, we initialize 100000 sampled points in the complex square of width 4 centered at $(0,0)$. We then iterate for 20 steps with the rule $z_{i+1}=z_i+c$. We then assign the color red to the points that end up outside the box at the end of the 20 iterations. We assign the color blue to the points that are still in the box after the 20 iterations. Then, we zoom on the square of width $0.2$ centered at $(0,0)$ and redo the same process but with only 2500 sampled points.
 
 \begin{figure}[h]
 \includegraphics[width = 0.5\columnwidth]{question1_1.png}
@@ -27,7 +27,7 @@ In this section, we initialize 100 randomly sampled points in the complex square
 
 
 \subsection{Analysis}
-We note that points that converge are mostly points which $|y|$ value is smaller than $0.5$. We then zoom on the square to make sure that that restriction is respected and indeed, all the points converge.
+We note that points that converge are mostly points which $|z|$ value is smaller than $1$. We then zoom on the square to make sure that that restriction is respected and indeed, all the points converge.
 
 
 \section{Question 2}
