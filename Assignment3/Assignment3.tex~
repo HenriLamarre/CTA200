@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{0.5em}
+
+
+\title{CTA200 2020 Assignment 3}
+\author{Henri Lamarre}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Observed fast radio burst dispersion measures}
+We begin by downloading the list of published fast radio 
+burst properties from http://frbcat.org/ (described in 
+https://arxiv.org/pdf/1601.03547.pdf). \\
+Then, we plot the FRBs as a function of their galactic 
+coordinates and colour them by their dispersion measure (DM) [left]. 
+Then, we remove the estimated dispersion created by the galactic disc from the measured DM [Right].
+
+
+\begin{figure}[h]
+  \includegraphics[width = 0.5\columnwidth]{FRB_gal_coord.pdf}
+  \includegraphics[width = 0.5\columnwidth]{FRB_gal_coord_corrected.pdf}
+\caption{Classification of measured FRBs by their galactic coordinates and total dispersion measure (DM) [Left] and corrected dispersion measure 
+(DM-D$\text{M}_\text{gal}$) [Right]. Some FRBs have a very high DM even though they don't pass through the disc of the Galaxy (yellow dot). 
+This could be explained by the FRB travelling through other galaxy discs; either the host galaxy or other ones in its path.}
+\label{frbcoords}
+\end{figure}
+
+
+\begin{figure}[h]
+\begin{center}
+  \includegraphics[width = 0.4\columnwidth]{FRB_gal_low_DM.pdf}
+\caption{Three FRBs have a total DM $<120 cm^{-3}pc$. Notice that they are outside of the galactic disk. This makes sense as the dispersion measure is proportional to the number of electrons encountered by the signal and the electron density is less dense outside of the galactic disc.}
+\end{center}
+\end{figure}
+
+
+\end{document}
