@@ -46,7 +46,7 @@ First, we load the m12c\_res56000 data from the FIRE simulations. Then, we inspe
 
 \begin{figure}[h]
 \begin{center}
-  \includegraphics[width = 0.5\columnwidth]{}
+  \includegraphics[width = 0.4\columnwidth]{ray_parr_galaxy.pdf}
 \caption{Here, we project the density field of the galaxy such that the average angular momentum vector is perpendicular to the plot. We see in white the path of the light ray.}
 \label{galaxydisc}
 \end{center}
@@ -54,30 +54,31 @@ First, we load the m12c\_res56000 data from the FIRE simulations. Then, we inspe
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width = 0.4\columnwidth]{}
-\includegraphics[width = 0.4\columnwidth]{}
-\caption{[Left] Temperature of the gas along the path of the light ray. [Right] Density of the gas along the path of the light ray.}
-\label{denstempdisc}
+\includegraphics[width = 0.7\columnwidth]{ray_parr_subplots.pdf}
+\caption{[TOP LEFT] Density field encountered by the light ray. [TOP RIGHT] Temperature field encountered by the light ray. [BOTTOM LEFT] Electron density field encountered by the light ray. [BOTTOM RIGHT] Dispersion measure computed as the line integral of the electron density along the light ray.}
+\label{parsubplots}
 \end{center}
 \end{figure}
+\newpage
+
 
 Then, we do the same process with a light ray that passes from the center of the galaxy to a distance equal to the virial radius of the galaxy in the direction perpendicular to the galaxy disc.
 
 \begin{figure}[h]
 \begin{center}
-  \includegraphics[width = 0.5\columnwidth]{}
-\caption{Here, we project the density field of the galaxy such that the average angular momentum vector is perpendicular to the plot. We see in white the path of the light ray.}
+  \includegraphics[width = 0.4\columnwidth]{ray_perp_galaxy_y}
+\caption{Projection of the galaxy where the 'y' axis in the simulation is perpendicular to the plot. We see in white the path of the light ray.}
 \label{galaxyperp}
 \end{center}
 \end{figure}
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width = 0.4\columnwidth]{}
-\includegraphics[width = 0.4\columnwidth]{}
-\caption{[Left] Temperature of the gas along the path of the light ray. [Right] Density of the gas along the path of the light ray.}
-\label{denstempperp}
+\includegraphics[width = 0.7\columnwidth]{ray_perp_subplots.pdf}
+\caption{[TOP LEFT] Density field encountered by the light ray. [TOP RIGHT] Temperature field encountered by the light ray. [BOTTOM LEFT] Electron density field encountered by the light ray. [BOTTOM RIGHT] Dispersion measure computed as the line integral of the electron density along the light ray.}
+\label{perpsubplots}
 \end{center}
 \end{figure}
 
+Notice that the DM in figure \ref{perpsubplots} is larger than in figure \ref{parsubplots} which is unexpected as we would think that a light ray going throught the galactic plane encounters more electrons. This can be explained by the electron denisty contribution at low arclengths (from 0 to 2) which is larger for the perpendicular light ray. In other words, the gas density in the middle of the galaxy might not be only disc-shaped and a light ray perpendicular to the galaxy could in principle encounter more electrons than a ray parallel to the galaxy plane.
 \end{document}
